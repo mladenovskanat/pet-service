@@ -21,7 +21,7 @@ The application allows creating, updating, deleting, and retrieving pet informat
 Note: species is a string for simplicity. It could be converted to an enum if stricter domain rules are required.
 
 # Architecture Decisions
-DDD & Hexagonal Architecture: Chosen to isolate the domain logic from the database,
+DDD & Hexagonal Architecture (lightweight): Chosen to isolate the domain logic from the database,
 making it easier to refactor or replace persistence mechanisms in the future while keeping the core logic 
 clean and maintainable.
 
